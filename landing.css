@@ -1,0 +1,205 @@
+/* body{
+   background-image: url("images/boat.jpg");
+  ;
+} */
+body{
+    margin-top: 0;
+}
+
+header::before{
+    content: "";
+    background-image: url("images/main.jpg");
+    background-size:100% 100%;
+    opacity:0.45;
+    position:absolute;
+    border-radius:25px;
+    width:96%;
+    height:90%;
+    z-index:-1;
+}
+#imgcontent{
+    display: flex;
+    flex-direction: column;
+    margin-top:15px;
+    margin-left:20px;
+}
+#navbar{
+    display: flex;
+    margin-left:30px;
+}
+#navele{
+    list-style:none;
+    display:flex;
+    padding: 5px;
+    margin-left:15rem;
+
+ 
+}
+
+#navele2{
+    list-style:none;
+    display:flex;
+    margin-left:8rem;
+    
+}
+.btn{
+    border-radius:3px;
+    background-color: white;
+    border-color: white;
+    color:green;
+}
+
+.l1{
+    padding:5px 15px;
+    align-self: flex-end;
+}
+
+.l2{
+    padding:8px;
+}
+
+#centerheading{
+    display: flex;
+    margin-top:80px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headerend{
+  list-style: none;
+  display: flex;
+  background-color: rgb(245, 244, 235);
+  width:50%;
+ padding: 6px;
+ margin-left:20rem;
+ margin-top:12rem;
+
+}
+
+#headerend li{
+    padding:6px;
+    margin-left:25px;
+}
+
+#body1{
+    display: flex;
+  
+}
+#images1{
+    margin-top:6rem;
+    display: flex;
+    margin-left:40px;
+}
+#img1{
+    border-radius:60px;
+}
+#img2{
+    margin-top:100px;
+    border-radius:90px;
+    margin-left:10px;
+   
+}
+#img3{
+    border-radius:90px;
+}
+#content{
+   margin-left:8rem;
+   margin-top:7rem;
+}
+.num{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10px;
+   
+}
+
+.num2{
+  margin-left:8rem;
+}
+#destination{
+    display: flex;
+}
+#see{
+    margin-left:65rem;
+    margin-top: 10px;
+    height:40px;
+    width:70px;
+    border-color:rgb(28, 130, 161);
+    background-color: white;
+    color: rgb(28, 130, 161);
+}
+.images2{
+    display: flex;
+    justify-content: center;
+}
+.images2 img{
+    padding:10px;
+    border-radius:20px;
+}
+#things{
+    display: flex;
+    
+}
+#flight{
+    margin-left:15rem;
+}
+#flight::before{
+ content:"";
+ background-image: url("images/airplane-flying-clouds-sunset-light.jpg");
+ background-size: 100% 100%;
+ position: absolute;
+ border-radius:20px;
+ height:55%;
+ width:30%;
+ z-index:-1;
+ opacity:0.8;
+}
+#hotel{
+    margin-left:280px;
+}
+#hotel::before{
+    content: "";
+    background-image:url("images/hotel1.jpg");
+    background-size:100% 100%;
+    position: absolute;
+    border-radius:20px;
+    height:55%;
+    width:30%;
+   z-index: -1;
+   opacity:0.5;
+}
+
+.about{
+    margin-top:20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about::before{
+    content: "";
+    background-image:url("images/landscape-morning-fog-mountains-with-hot-air-balloons-sunrise.jpg");
+    background-size:100% 100%;
+    position: absolute;
+    height:60%;
+    width:100%;
+   z-index: -1;
+   opacity:0.5;
+}
+footer{
+    display: flex;
+    background-color:rgb(43, 122, 133);
+    padding:40px;
+    margin-top:60px;
+    color: white;
+}
+.fele2{
+    display: flex;
+    flex-direction: column;
+    margin-left:10rem;
+}
+span{
+    margin-top:20px;
+}
+#fele1{
+    margin-top:60px;
+}
