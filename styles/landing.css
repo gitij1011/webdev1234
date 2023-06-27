@@ -5,7 +5,7 @@ body{
 
 header::before{
     content: "";
-    background-image: url("images/main.jpg");
+    background-image: url("../images/main.jpg");
     background-size:100% 100%;
     position:absolute;
     opacity:0.67;
@@ -142,7 +142,7 @@ header::before{
 }
 #flight::before{
  content:"";
- background-image: url("images/airplane-flying-clouds-sunset-light.jpg");
+ background-image: url("../images/airplane-flying-clouds-sunset-light.jpg");
  background-size: 100% 100%;
  position: absolute;
  border-radius:20px;
@@ -156,7 +156,7 @@ header::before{
 }
 #hotel::before{
     content: "";
-    background-image:url("images/hotel1.jpg");
+    background-image:url("../images/hotel1.jpg");
     background-size:100% 100%;
     position: absolute;
     border-radius:20px;
@@ -174,7 +174,7 @@ header::before{
 }
 .about::before{
     content: "";
-    background-image:url("images/landscape-morning-fog-mountains-with-hot-air-balloons-sunrise.jpg");
+    background-image:url("../images/landscape-morning-fog-mountains-with-hot-air-balloons-sunrise.jpg");
     background-size:100% 100%;
     position: absolute;
     height:60%;
