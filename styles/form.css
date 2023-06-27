@@ -1,10 +1,96 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body::before{
     content: "";
-    background-image: url("images/fuji.jpg");
+    background-image: url("../images/formimage.jpg");
     background-size: 100% 100%;
     position: absolute;
     height:100%;
     width:100%;
-    opacity:0.47;
+    z-index: -1;
+}
+#section1{
+    display: flex;
+}
+#subsection1{
+    margin-top:15rem;
+    margin-left:12rem;
+}
+#subsection2{
+    margin-left:25rem;
+    margin-top:2rem;
+}
+#heading{
+    color: white;
+}
+
+#subsection2{
+    background-color:white;
+    border-radius:10px;
+    padding:40px 25px;
+    /* width:40%;
+    height:80%; */
+
+}
+#formheading{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom:8px;
+}
+#subheading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: gray;
+    margin-bottom: 15px;
+}
+.entries{
+    margin-bottom:10px;
+}
+.check{
+    display: flex;
+}
+#resetpassword{
+    color: red;
+    margin-left:10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+#tickbox{
+    margin-right:5px;
+}
+#loginbtn{
+    background:rgb(6, 109, 134);
+    color: white;
+    padding:10px;
+    border-radius:5px;
+    margin-top:20px;
+    margin-bottom:10px;
+    display: flex;
+    justify-content: center;
+}
+#loginbtn:hover{
+    background:rgb(30, 130, 155);
+}
+#options{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+#login-with{
+    margin-left:9rem;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: grey;
+}
+#login-icons{
+    margin-left:45px;
+    margin-bottom:10rem;
+}
+.icon{
+    border: 5px;
+    border-color: rgb(10, 55, 138);
+    border-radius:2px;
+    padding:2px 35px;
 }

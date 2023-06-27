@@ -29,8 +29,6 @@ header::before{
     display:flex;
     padding: 5px;
     margin-left:15rem;
-
- 
 }
 
 #navele2{
@@ -213,3 +211,22 @@ span{
  margin-top:40px;
  margin-left:50px;
 }
+/* laptop view */
+@media screen and (max-width:1024px) {
+    header::before{
+            width:100%;
+            height:100%;
+        }
+        #imgcontent{
+            display: flex;
+            flex-direction: column;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        #navele{
+            list-style:none;
+            display:flex;
+            padding: 5px;
+            margin-left:2rem;
+        }
+    }
