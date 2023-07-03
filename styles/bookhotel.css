@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    margin-top: 20px;
+    margin-left:50px;
+}
+.links{
+    display: flex;
+    list-style: none;
+    margin-left:10rem;
+}
+.listitems{
+   padding: 0px 30px;
+}
+.favourite{
+    margin-left:5rem;
+}
+.main{
+    display: flex;
+    padding: 10px;
+    margin-top:2rem;
+    margin-left: 20px;
+}
+.searches{
+    margin-top: 20px;
+    margin-left:40px;
+}
+.searches span{
+    padding:15px 25px;
+}
+.filter-section{
+    margin: 0px 35px;
+}
+.filter-section h3{
+    background-color: rgb(6, 6, 48);
+    color: white;
+    padding: 10px 80px;
+}
+.fascilites{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:40px;
+}
+
+.hotels-sec{
+    margin-left:20rem;
+}
+
+.hoteltype{
+    display: flex;
+    margin-bottom:30px;
+    margin-left: 10px;
+}
+.heading{
+  margin-left:10rem;
+}
+.hotel-name{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.hotel-image img{
+    border-radius:15px 0px 0px 15px;
+}
+.hotel-details{
+    margin-left:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.hotel-details span{
+    margin-top: 30px;
+}
+
+.hotel-location{
+    margin-top:10px;
+}
+.more-details{
+    display: flex;
+}
+.amount{
+    margin-left:60px;
+}
+.amount h2{
+    color: red;
+}
+.hotel-rating{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#amenities{
+    margin-left:20px;
+   
+}
+.rating-btn{
+    border:groove 2px green;
+    border-radius:5px;
+    padding:5px;
+}
+
+.booking-img{
+    display: flex;
+    margin-top: 30px;
+}
+
+.bookbtn{
+    margin-left: 20px;
+    background-color: rgb(12, 142, 151);
+    padding: 10px 100px;
+    border-radius: 10px;
+    color: white;
+}
+.bookbtn:hover{
+    background-color:rgb(27, 154, 163); ;
+}
+
+/* footer */
+footer{
+    display: flex;
+    background-color:rgb(43, 122, 133);
+    padding:40px;
+    margin-left:-10px;
+    color: white;
+    width:100%;
+    height: 100%;
+}
+.fele2{
+    display: flex;
+    flex-direction: column;
+    margin-left:10rem;
+}
+span{
+    margin-bottom:8px;
+}
+#fele1{
+ margin-top:40px;
+ margin-left:50px;
+}

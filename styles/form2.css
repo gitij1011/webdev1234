@@ -11,20 +11,21 @@ body::before{
     width:100%;
     z-index: -1;
 }
+
 #section1{
     display: flex;
 }
 #subsection1{
     margin-top:15rem;
-    margin-left:12rem;
+    margin-left:10rem;
     color: white;
 }
 #subsection2{
+    margin-top:40px;
     margin-left:25rem;
-    margin-top:2rem;
     background-color:white;
     border-radius:20px;
-    padding:30px 25px;
+    padding: 5px;
 }
 
 
@@ -40,7 +41,6 @@ body::before{
 }
 
 .input1{
-    margin-left:20px;
     margin-top:30px;
 }
 #entrie1{
@@ -62,10 +62,10 @@ body::before{
 #loginbtn{
     background:rgb(6, 109, 134);
     color: white;
-    padding:10px;
+    padding:10px 5px;
     border-radius:5px;
-    margin-top:20px;
-    margin-bottom:10px;
+    margin-top:40px;
+    margin-bottom:60px;
     display: flex;
     justify-content: center;
 }
@@ -78,15 +78,15 @@ body::before{
     margin-bottom: 25px;
 }
 #login-with{
-    margin-left:9rem;
+    margin-left:12rem;
     margin-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     color: grey;
 }
 #login-icons{
-    margin-left:45px;
-    margin-bottom:10rem;
+    margin-left:95px;
+    margin-bottom: 30px;
 }
 .icon{
     border: 5px;
