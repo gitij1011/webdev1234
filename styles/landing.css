@@ -5,10 +5,9 @@ body{
 
 header::before{
     content: "";
-    background-image: url("../images/main.jpg");
+    background-image: url("../images/indeximage.png");
     background-size:100% 100%;
     position:absolute;
-    opacity:0.67;
     border-radius:25px;
     width:95%;
     height:90%;
@@ -23,12 +22,22 @@ header::before{
 #navbar{
     display: flex;
     margin-left:30px;
+    color: white;
 }
 #navele{
     list-style:none;
     display:flex;
     padding: 5px;
     margin-left:15rem;
+}
+#navele li a{
+    text-decoration: none;
+    color: white;
+}
+
+#navele2 li a{
+    text-decoration: none;
+    color: white;
 }
 
 #navele2{
@@ -39,9 +48,8 @@ header::before{
 }
 .btn{
     border-radius:3px;
-    background-color: white;
-    border-color: white;
-    color:green;
+    background-color: rgb(50, 11, 122);
+    border-color: rgb(12, 9, 63);
 }
 
 .l1{
@@ -58,6 +66,7 @@ header::before{
     margin-top:80px;
     flex-direction: column;
     align-items: center;
+    color: white;
 }
 
 #headerend{
